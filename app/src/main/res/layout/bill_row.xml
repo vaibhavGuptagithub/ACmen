@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="@color/black"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/template_bill_no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/template_bill_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/template_bill_date"/>
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+    android:background="@color/black"
+android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:background="#016564"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Reciever Detail"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/template_bill_customerName"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:id="@+id/template_bill_customerGst"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:id="@+id/template_bill_customerAddress"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:id="@+id/template_bill_customerNumber"
+        android:gravity="center"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#016564"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:text="Sender Detail"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:id="@+id/template_bill_userName"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:id="@+id/template_bill_userGst"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:id="@+id/template_bill_userAddress"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:id="@+id/template_bill_userNumber"
+        android:gravity="center"/>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#016564"
+android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/black"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:text="Material Detail:- "
+    android:layout_marginStart="5dp"
+    android:textSize="18sp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:gravity="center"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="HSN"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:background="@color/white"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:id="@+id/template_materialName"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/template_materialHsn"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/template_materialQuantity"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/template_materialRate"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/template_materialAmount"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="19dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textSize="14sp"
+        android:text="Tax "/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textSize="14sp"
+        android:id="@+id/template_materialTax"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:id="@+id/taxable"/>
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="260dp"
+    android:gravity="center"
+    android:background="#06ABF6"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:padding="5dp"
+    android:id="@+id/template_bill_totalAmount"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#0BBF54"
+            android:text=" Next >>>"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
